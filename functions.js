@@ -56,6 +56,7 @@ function findLongestWord(arr) {
             longest = arr[i]
         }
     }
+    return longest
 }
 
 console.log(findLongestWord(['Hi', 'Hello', 'How are you today?']))
